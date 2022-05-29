@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { UsersService } from './core/user.service';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, DetailComponent],
@@ -18,7 +19,7 @@ import { MatButtonModule } from '@angular/material/button';
     MatCardModule,
     MatButtonModule,
   ],
-  providers: [],
+  providers: [UsersService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
