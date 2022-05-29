@@ -16,21 +16,27 @@ export class UsersService {
   private users: User[] = [
     {
       id: '1',
-      name: 'Josh',
-      location: 'Adelaide',
-      bio: 'Subscribe for more videos on Angular!',
+      name: 'Andrew Smith',
+      location: 'Indianapolis',
+      bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
     },
     {
       id: '2',
-      name: 'Bran',
-      location: 'Winterfell',
-      bio: 'I like to travel',
+      name: 'Josh Primm',
+      location: 'Carmel',
+      bio: 'Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Consequat interdum varius sit amet mattis. Mollis nunc sed id semper risus. At tempor commodo ullamcorper a lacus vestibulum sed arcu non. Neque sodales ut etiam sit amet nisl.',
     },
     {
       id: '3',
-      name: 'Daenerys',
-      location: 'Kings Landing',
-      bio: 'Mother of dragons etc. etc. ',
+      name: 'Josh Taylor',
+      location: 'Martinsville',
+      bio: 'Neque aliquam vestibulum morbi blandit cursus risus at ultrices. Faucibus interdum posuere lorem ipsum. At tempor commodo ullamcorper a lacus vestibulum sed arcu. Aliquet nec ullamcorper sit amet risus nullam eget felis eget.',
+    },
+    {
+      id: '4',
+      name: 'Mark Davidson',
+      location: 'Greenwood',
+      bio: 'Neque aliquam vestibulum morbi blandit cursus risus at ultrices. Faucibus interdum posuere lorem ipsum. At tempor commodo ullamcorper a lacus vestibulum sed arcu. Aliquet nec ullamcorper sit amet risus nullam eget felis eget.',
     },
   ];
 

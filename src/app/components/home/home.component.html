@@ -1,6 +1,12 @@
 <section>
-  <div *ngFor="let user of users$ | async">
-    {{ user.name }}
-    <button routerLink="/{{ user.id }}">click</button>
+  <div class="button-wrapper" *ngFor="let user of users$ | async">
+    <button
+      class="button-link"
+      mat-flat-button
+      color="primary"
+      routerLink="/{{ user.id }}"
+    >
+      {{ user.name }}
+    </button>
   </div>
 </section>
