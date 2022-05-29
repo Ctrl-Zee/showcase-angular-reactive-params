@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { switchMap } from 'rxjs';
-import { UsersService } from 'src/app/core/user.service';
+import { UsersService } from '../../core/user.service';
 
 @Component({
   selector: 'app-detail',
