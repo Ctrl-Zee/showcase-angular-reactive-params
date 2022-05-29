@@ -1,0 +1,6 @@
+<section>
+  <div *ngFor="let user of users$ | async">
+    {{ user.name }}
+    <button routerLink="/{{ user.id }}">click</button>
+  </div>
+</section>
