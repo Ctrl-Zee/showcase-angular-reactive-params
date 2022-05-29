@@ -1,4 +1,4 @@
-# AngularReactiveParams
+# Angular Reactive Paramameters
 
 Small project to showcase how to use route parameters reactively. This project was heavily inspired by [Josh Morony](https://www.youtube.com/watch?v=TPA_iPWkUxc)
 
